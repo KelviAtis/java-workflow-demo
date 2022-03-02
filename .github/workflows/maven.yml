@@ -24,7 +24,6 @@ jobs:
     - name: Build with Maven
       run: mvn package
     - name: Go to jar directory
-      run: pwd
-#       run: cd actions-runner/_work/java-workflow-demo/java-workflow-demo/target/quarkus-app/
+      run: cd ~/actions-runner/_work/java-workflow-demo/java-workflow-demo/target/quarkus-app/
     - name: Run java as jar
       run: java -jar quarkus-run.jar
