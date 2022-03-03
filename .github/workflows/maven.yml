@@ -27,6 +27,8 @@ jobs:
       run: pwd
     - name: List directory file
       run: ls
+    - name: List directory file of target
+      run: ls target
     - name: Go to jar directory
       run: cd target
     - name: Which directory am I 2
