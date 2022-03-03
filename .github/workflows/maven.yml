@@ -23,15 +23,3 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn clean package -DskipTests=true
-    - name: Which directory am I
-      run: pwd
-    - name: List directory file
-      run: ls
-    - name: List directory file of target
-      run: ls target/quarkus-app
-    - name: Go to jar directory
-      run: cd target
-    - name: Which directory am I 2
-      run: pwd
-    - name: Run java as jar
-      run: java -jar target/quarkus-app/quarkus-run.jar
