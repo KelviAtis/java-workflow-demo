@@ -25,6 +25,8 @@ jobs:
       run: mvn clean package -DskipTests=true
     - name: Which directory am I
       run: pwd
+    - name: List directory file
+      run: ls
     - name: Go to jar directory
       run: cd /target/quarkus-app
     - name: Which directory am I 2
