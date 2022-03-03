@@ -26,8 +26,8 @@ jobs:
     - name: Which directory am I
       run: pwd
     - name: Go to jar directory
-      run: cd ~/actions-runner/_work/java-workflow-demo/java-workflow-demo/target/quarkus-app
-    - name: Which directory am I
+      run: cd /target/quarkus-app
+    - name: Which directory am I 2
       run: pwd
     - name: Run java as jar
       run: java -jar quarkus-run.jar
