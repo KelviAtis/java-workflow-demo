@@ -34,4 +34,4 @@ jobs:
     - name: Which directory am I 2
       run: pwd
     - name: Run java as jar
-      run: java -jar quarkus-run.jar
+      run: java -jar target/quarkus-app/quarkus-run.jar
