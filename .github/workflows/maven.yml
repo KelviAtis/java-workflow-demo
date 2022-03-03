@@ -28,7 +28,7 @@ jobs:
     - name: List directory file
       run: ls
     - name: List directory file of target
-      run: ls target
+      run: ls target/quarkus-app
     - name: Go to jar directory
       run: cd target
     - name: Which directory am I 2
